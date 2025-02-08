@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #2A2F4F;
+    --secondary-color: #6C4A7A;
+    --accent-color: #C996CC;
+    --background-light: #FDE2F3;
+    --text-dark: #2A2F4F;
+    --text-light: #FFFFFF;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: var(--background-light);
+    color: var(--text-dark);
+}
+
+/* Modern Navbar */
+.navbar {
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    margin: 0 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    min-height: 100vh;
+    padding-top: 100px;
+    color: var(--text-light);
+    position: relative;
+}
+
+.profile-img {
+    width: 280px;
+    height: 280px;
+    border: 5px solid var(--accent-color);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+.skill-card {
+    background: var(--text-light);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+/* Contact Section */
+.contact-card {
+    background: var(--text-light);
+    border-radius: 25px;
+    padding: 3rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Social Icons */
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: var(--accent-color);
+    transform: scale(1.1);
+}
+
+/* Education Timeline */
+.timeline-item {
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 2rem;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    border-radius: 50%;}
