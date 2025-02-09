@@ -1,5 +1,4 @@
 # 🌟 Al-Nahari 
-**Portfolio**  
 
 [![GitHub License](https://img.shields.io/github/license/Al-Nahari/Al-Nahari?color=blue)](https://github.com/Al-Nahari/Al-Nahari/blob/main/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Al-Nahari/Al-Nahari?style=social)](https://github.com/Al-Nahari/Al-Nahari/stargazers)
