@@ -8,9 +8,3 @@
  
 
 ---
-
-### ⚡ **كيفية التشغيل**  
-1. استنساخ المستودع:  
-```bash
-git clone https://github.com/Al-Nahari/Al-Nahari.git
-cd Al-Nahari
