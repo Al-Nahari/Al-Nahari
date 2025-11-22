@@ -1,7 +1,6 @@
 # 🌟 Al-Nahari
 
-مرحبًا بك في حسابي!  
-أنا مطوّر مهتم ببناء تطبيقات ويب وتطبيقات مكتبية باستخدام أحدث التقنيات، مع خبرة في تحليل البيانات، وإدارة قواعد البيانات، والشبكات.
+مطوّر مهتم ببناء تطبيقات ويب وتطبيقات مكتبية باستخدام أحدث التقنيات، مع خبرة في تحليل البيانات، وإدارة قواعد البيانات، والشبكات.
 
 ---
 
@@ -25,13 +24,6 @@
 
 ---
 
-### 💻 Desktop Applications (Visual Programming)
-[![C# WinForms](https://img.shields.io/badge/WinForms-512BD4?style=for-the-badge&logo=windows&logoColor=white)]()
-[![C# .NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
-
-مشروع: **تطبيق لإدارة وحجز رحلات الطيران باستخدام C# والبرمجة المرئية** ✈️
-
----
 
 ### 📊 Data Analysis & BI Tools
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
