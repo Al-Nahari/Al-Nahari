@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al-Nahari | مطور برمجيات</title>
-    
-    <!-- SEO Meta -->
-    <meta name="description" content="مطور برمجيات متخصص في تطوير تطبيقات الويب والتطبيقات الذكية">
-    <meta name="keywords" content="Django, React, Flutter, PostgreSQL, تطوير ويب">
-    
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Muhammad Al-Nahari | Software Developer</title>
+    <meta name="description" content="Muhammad Al-Nahari - Full Stack Web Developer, Data Analyst, Database and Networking Expert">
+    <meta name="keywords" content="Django, React, Angular, Python, C#, SQL, PostgreSQL, Full Stack, Portfolio">
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href='style.css'>
-
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
 
 </head>
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
@@ -36,38 +32,34 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">المهارات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">المشاريع</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">التعليم</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">التواصل</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero d-flex align-items-center">
-        <div class="container text-center">
-            <img src="1.png" alt="Al-Nahari" class="profile-img rounded-circle mb-4 animate__animated animate__fadeInUp">
-            <h1 class="display-3 fw-bold mb-3 animate__animated animate__fadeInDown">Mohammed Al-Nahari</h1>
-            <p class="lead fs-4 mb-4 animate__animated animate__fadeIn">مطور ويب Full Stack </p>
-            <div class="social-links d-flex justify-content-center gap-3">
-                <a href="https://github.com/Al-Nahari" target="_blank" class="social-icon">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://t.me/M_AK_Nahari" target="_blank" class="social-icon">
-                    <i class="fab fa-telegram"></i>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100077995458453" target="_blank" class="social-icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://instagram.com/M_AK_Nahari" target="_blank" class="social-icon">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="mailto:nahari771735476@gmail.com" class="social-icon">
-                    <i class="fas fa-envelope"></i>
-                </a>
+    <section id="home" class="hero">
+        <div class="floating-elements">
+            <div class="floating-element" style="width: 100px; height: 100px; top: 10%; left: 10%;"></div>
+            <div class="floating-element" style="width: 150px; height: 150px; top: 20%; right: 15%;"></div>
+            <div class="floating-element" style="width: 80px; height: 80px; bottom: 20%; left: 20%;"></div>
+            <div class="floating-element" style="width: 120px; height: 120px; bottom: 10%; right: 10%;"></div>
+        </div>
+        <div class="container">
+            <img src="1.png" alt="Muhammad Al-Nahari" class="profile-img mb-4 lazy-load" data-aos="zoom-in" data-aos-delay="200">
+            <h1 class="display-3 fw-bold mb-3" data-aos="fade-down" data-aos-delay="400">Muhammad Al-Nahari</h1>
+            <p class="lead fs-4 mb-4" data-aos="fade-up" data-aos-delay="600">Full Stack Web & Desktop Applications Developer with expertise in Data Analysis, Database Management, and Networking</p>
+            <div class="social-links d-flex justify-content-center gap-3" data-aos="fade-up" data-aos-delay="800">
+                <a href="https://github.com/Al-Nahari" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/M_AK_Nahari" target="_blank" class="social-icon"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100077995458453" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/M_AK_Nahari" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:nahari771735476@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </section>
@@ -75,32 +67,41 @@
     <!-- Skills Section -->
     <section id="skills" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold display-4 reveal">المهارات التقنية</h2>
+            <h2 class="text-center mb-5 fw-bold display-4 section-title" data-aos="fade-right">Technical Skills</h2>
             <div class="row justify-content-center g-4">
-                <div class="col-md-4 reveal">
-                    <div class="skill-card">
-                        <div class="text-center mb-4">
-                            <i class="fab fa-python fa-3x text-primary"></i>
-                        </div>
-                        <h3>تطوير Back-end</h3>
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h3>Back-end Development</h3>
                         <ul class="list-unstyled">
                             <li>▶ Django Framework</li>
                             <li>▶ REST APIs</li>
                             <li>▶ PostgreSQL</li>
+                            <li>▶ C# Desktop Applications</li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-md-4 reveal">
-                    <div class="skill-card">
-                        <div class="text-center mb-4">
-                            <i class="fab fa-react fa-3x text-info"></i>
-                        </div>
-                        <h3>تطوير Front-end</h3>
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3>Front-end Development</h3>
                         <ul class="list-unstyled">
                             <li>▶ React.js</li>
-                            <li>▶ Flutter</li>
+                            <li>▶ Angular</li>
                             <li>▶ Bootstrap 5</li>
+                            <li>▶ Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="400">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3>Data & BI Tools</h3>
+                        <ul class="list-unstyled">
+                            <li>▶ Power BI</li>
+                            <li>▶ MySQL & SQL Server</li>
+                            <li>▶ Python for Data Analysis</li>
+                            <li>▶ Networking</li>
                         </ul>
                     </div>
                 </div>
@@ -109,30 +110,63 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-5">
+    <section id="projects" class="py-5 bg-white">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold display-4 reveal">المشاريع العامة</h2>
+            <h2 class="text-center mb-5 fw-bold display-4 section-title" data-aos="fade-left">Public Projects</h2>
             <div class="row g-4" id="github-projects">
                 <div class="col-12 text-center">
-                    <div class="spinner-border text-primary" role="status">
-                        <span class="visually-hidden">جاري التحميل...</span>
-                    </div>
+                    <div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="py-5 bg-white">
+    <section id="education" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold display-4 reveal">الخلفية الأكاديمية</h2>
-            <div class="timeline-item reveal">
-                <h3>بكالوريوس تكنولوجيا المعلومات</h3>
-                <p class="text-muted">جامعة ذمار</p>
+            <h2 class="text-center mb-5 fw-bold display-4 section-title" data-aos="fade-right">Academic Background</h2>
+            <div class="timeline-item" data-aos="fade-up">
+                <h3>Bachelor of Information Technology</h3>
+                <p class="text-muted">Dhamar University</p>
                 <div class="timeline-date">2021 - 2025</div>
-                <p class="text-muted">
-                    تركيز على تطوير الويب وهندسة البرمجيات وأمن المعلومات
-                </p>
+                <p class="text-muted">Focus on Web Development, Software Engineering, and Information Security</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container text-center" data-aos="fade-up">
+            <h2 class="mb-4 fw-bold display-4 section-title">Let's Work Together</h2>
+            <p class="lead mb-5">I'm always open to discussing new opportunities and creative projects</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body p-5">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+                                        <h4>Email</h4>
+                                        <p>nahari771735476@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone fa-2x text-primary mb-3"></i>
+                                        <h4>Phone</h4>
+                                        <p>+967 77 173 5476</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <a href="mailto:nahari771735476@gmail.com" class="btn btn-primary btn-lg px-5 py-3 project-link">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -140,30 +174,20 @@
     <!-- Footer -->
     <footer class="bg-dark text-light py-4">
         <div class="container text-center">
-            <div class="social-links mb-3 d-flex justify-content-center gap-3">
-                <a href="https://github.com/Al-Nahari" target="_blank" class="social-icon">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://t.me/M_AK_Nahari" target="_blank" class="social-icon">
-                    <i class="fab fa-telegram"></i>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100077995458453" target="_blank" class="social-icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://instagram.com/M_AK_Nahari" target="_blank" class="social-icon">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-            <p class="mb-0">&copy; 2025 Al-Nahari. جميع الحقوق محفوظة</p>
+            <p class="mb-0">&copy; 2024 Muhammad Al-Nahari. All rights reserved.</p>
         </div>
     </footer>
 
     <!-- Scroll to Top Button -->
-    <div class="scroll-top">
+    <div class="scroll-top" id="scrollTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js">
-    </script>
+
+    <!-- Bootstrap & AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+ <script src="script.js">
+    <script>
+
 </body>
-</html>
+                        </html>
