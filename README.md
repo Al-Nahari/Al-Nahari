@@ -47,8 +47,3 @@
 
 ## ⭐ GitHub Stats
 [![GitHub Stars](https://img.shields.io/github/stars/Al-Nahari/Al-Nahari?style=social)](https://github.com/Al-Nahari/Al-Nahari/stargazers)
-
----
-
-## ✉️ تواصل معي
-يسعدني التعاون أو استقبال أي استفسار عبر GitHub.
